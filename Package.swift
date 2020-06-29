@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "libarchive",
     providers: [
-        .brew("libarchive")
+      .brew(["libarchive"])
     ]
 )
 
